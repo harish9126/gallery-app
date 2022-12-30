@@ -1,0 +1,27 @@
+* {
+  font-family: 'Roboto';
+}
+
+.app-container {
+  padding: 20px;
+}
+
+.image {
+  width: 100%;
+  max-width: 1110px;
+}
+
+.thumbnails-container {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+
+@media (min-width: 590px) {
+  .thumbnails-container {
+    justify-content: flex-start;
+  }
+}
